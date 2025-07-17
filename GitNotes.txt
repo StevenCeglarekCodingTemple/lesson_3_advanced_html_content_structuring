@@ -1,0 +1,28 @@
+# Check current status
+git status
+git branch -- Tells you what branches exist on the repository
+
+# Create feature branch for new functionality
+git checkout -b feature/contact-form -creates and switches you to the new branch
+
+# Changes were added
+
+# Stage and commit changes
+git add .
+git commit -m "Add contact form with validation"
+
+# Push feature branch to GitHub
+git push origin feature/contact-form
+
+# Create pull request on GitHub (demonstrate in browser)
+# After review, merge back to main
+git checkout main - switches you back to the main branch
+git pull origin main - pull changes when switching back to a branch
+git merge feature/contact-form
+
+# Clean up
+git branch -d feature/contact-form
+git push origin --delete feature/contact-form
+
+#May need to do git push again
+git push

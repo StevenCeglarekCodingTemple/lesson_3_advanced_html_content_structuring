@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+</head>
+<body>
+    <table>
+        <caption>
+            Quaterly Sales Report - 2025
+            <details>
+                <summary>Table Description</summary>
+                <p>This table shows product sales data across four quarters, with totals calculated for each period.</p>
+            </details>
+        </caption>
+
+        <colgroup>
+            <col>
+            <col span="4" class="data-columns">
+        </colgroup>
+
+        <thead>
+            <tr>
+                <th scope="col">Product</th>
+                <th scope="col">Q1 Sales</th>
+                <th scope="col">Q2 Sales</th>
+                <th scope="col">Q3 Sales</th>
+                <th scope="col">Q4 Sales</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <th scope="row">Widget Pro</th>
+                <td>$15,000</td>
+                <td>$20,000</td>
+                <td>$25,000</td>
+                <td>$35,000</td>
+            </tr>
+            <tr>
+                <th scope="row">Widget Basic</th>
+                <td>$1,000</td>
+                <td>$20,000</td>
+                <td>$5,000</td>
+                <td>$35,000</td>
+            </tr>
+            <tr>
+                <th scope="row">Widget Elite</th>
+                <td>$15,000</td>
+                <td>$20,000</td>
+                <td>$25,000</td>
+                <td>$3,000</td>
+            </tr>
+        </tbody>
+        
+        <tfoot>
+            <tr>
+                <th scope="row">Total Sales</th>
+                <td>$20,000</td>
+                <td>$40,000</td>
+                <td>$50,000</td>
+                <td>$60,000</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

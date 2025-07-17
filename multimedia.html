@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multimedia</title>
+</head>
+<body>
+
+    <video controls width="640" height="360" poster="video-poster.jpg">
+        <source src="tutorial.mp4" type="video/mp4">
+        <source src="tutorial.webm" type="video/webm">
+
+        <track kind="subtitles" src="captions-en.vtt" srclang="en" label="English">
+        <track kind="subtitles" src="captions-es.vtt" srclang="es" label="Spanish">
+
+        <p>Your browser doesn't support HTML5 video.
+            <a href="tutorial.mp4">Download the video here</a> to watch offline.
+        </p>
+
+    </video>
+
+    <div class="video-container">
+        <iframe width="560"
+                height="315" 
+                src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                title="Web Development Tutorial"
+                allow="accelerometerl autoplay; clipboard-write; encrpyted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+        </iframe>
+    </div>
+
+    <audio controls>
+        <source src="podcast.mp3" type="audio/mpeg">
+        <source src="podcast.ogg" type="audio/ogg">
+        <p>Your browser doesn't support HTML5 audio.
+            <a href="podcast.mp3">Download the audio file</a>.
+        </p>
+    </audio>
+    
+</body>
+</html>

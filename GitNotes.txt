@@ -1,9 +1,9 @@
 # Check current status
 git status
-git branch -- Tells you what branches exist on the repository
+git branch                      - - Tells you what branches exist on the repository
 
 # Create feature branch for new functionality
-git checkout -b feature/contact-form -creates and switches you to the new branch
+git checkout -b feature/contact-form         -creates and switches you to the new branch
 
 # Changes were added
 
@@ -16,8 +16,8 @@ git push origin feature/contact-form
 
 # Create pull request on GitHub (demonstrate in browser)
 # After review, merge back to main
-git checkout main - switches you back to the main branch
-git pull origin main - pull changes when switching back to a branch
+git checkout main                    - switches you back to the main branch
+git pull origin main                 - pull changes when switching back to a branch
 git merge feature/contact-form
 
 # Clean up
